@@ -1,0 +1,134 @@
+#title{
+    background: linear-gradient(to right,red,green,rgb(238, 226, 122));
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+#menu{
+    background-color:cornflowerblue;
+    border: 5px solid red;
+    border-radius: 15px;
+    list-style-type: disc;
+margin-bottom: 20px;
+width: 600px;
+margin-left: auto;
+margin-right: auto;
+}
+#menulist{
+    text-align: center;
+    margin-left: auto;
+margin-right: auto;
+width: 150px;
+}
+#container1{
+    display:flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    border:2px solid brown;
+    background-color:lightblue;
+    justify-content: space-around;
+}
+.container2{
+    border: 3px solid green;
+    border-radius: 15px;
+    background-color: aqua;
+    font-weight: bold;
+   color: black;
+text-align: center;
+width: 30%;
+}
+#title2{
+    background: linear-gradient(to right, RED,rgb(250, 191, 125),red);
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 10px;}
+    #container2{
+        background: radial-gradient(blue,#8b63b1,green);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+margin-bottom: 20px;
+
+    }
+    .toppers{
+        background-color: yellow;
+        color: red;
+        font-weight: bold;
+        text-decoration: underline;
+        border: 3px solid tomato;
+       border-radius: 25px;
+        width:160px;
+        height:120px;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .container3{
+        display: grid;
+        width:100%;
+        gap:10px;
+        border:1px solid black;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 30px 80px 100px 30px
+    
+    
+    }
+.grid-1{
+color:white;
+text-align: center;
+font-size: 18px;
+background-color:#f50d29 ;
+grid-column: 1/6;
+
+}
+.grid-2{
+    font-size: 1.9rem;
+    height: min-content;
+    text-align: center;
+    background-color: #48cb44;
+    grid-column: 1/2;
+    color:white;
+}
+    .grid-3{
+        font-size: 1.7rem;
+        height: min-content;
+        background-color: #2583f7;
+        grid-column: 2/3;
+        color:white;
+    }
+    .grid-4{
+        font-size: 1.35rem;
+        height:70px;
+        background-color: #4847ea;
+        grid-column: 3/5;
+        color:white;
+    }
+    .grid-5{
+        background-color:#292d37 ;
+        grid-column: 5/5;
+        grid-row: 2/4;
+        color:white;
+        font-size: 0.85rem;
+        text-align: center;
+    }
+    .grid-6{
+        color:white;
+        font-size: 18px;
+        font-weight: bold;
+        background: #f29937;
+        grid-column: 1/5;
+    }
+    li{
+      
+        text-decoration: underline;
+
+    }
+    .grid-7{
+        
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        font-size: 18px;
+        background-color: #50cccd;
+        grid-column: 1/6;
+    }
